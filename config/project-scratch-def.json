@@ -1,7 +1,12 @@
 {
-  "orgName": "sbutterfield company",
-  "edition": "Developer",
-  "features": [],
+  "orgName": "wdc-binaries@butters-sfdx.com",
+  "country": "US",
+  "adminEmail": "butters@salesforce.com",
+  "edition": "Partner Developer",
+  "feature_tag__c": "wdc-binaries",
+  "repository__c": "https://github.com/sbutterfield/wdc-binaries",
+  "features": ["MultiCurrency","PersonAccounts","AuthorApex","DebugApex","HealthCloudUser","WorkplaceCommandCenterUser"],
+  "hasSampleData": "true",
   "settings": {
     "lightningExperienceSettings": {
         "enableS1DesktopEnabled": true
@@ -9,6 +14,9 @@
     "securitySettings": {
         "passwordPolicies": {
             "enableSetPasswordInApi": true
+        },
+        "sessionSettings": {
+          "sessionTimeout": "TwelveHours"
         }
     },
     "mobileSettings": {
